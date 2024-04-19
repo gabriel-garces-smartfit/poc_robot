@@ -3,7 +3,7 @@
 Library    AppiumLibrary
 
 Resource    ../sessions/android.resource
-Resource    ../page/login/login_page.resource
+Resource    ../page/base/base_page.resource
 Resource    ../page/checkout/checkout_page.resource
 
 Test Setup        Start session
@@ -12,7 +12,7 @@ Test Teardown     Close Session
 *** Test Cases ***
 Checkout
 
-    Access area
+    Select Country
     Access buy plan
     Filter for academy
     Details plans

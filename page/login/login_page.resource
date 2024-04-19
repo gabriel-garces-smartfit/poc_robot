@@ -2,11 +2,12 @@
 
 Library    AppiumLibrary
 
-Resource    ../../robot.env.resource
+Resource    ../../env/robot.env.resource
+Resource    ../base/base_page.resource
 Resource    ../login/login_elements.resource
 
 *** Keywords ***
-Access area
+Select Country
     Wait Until Page Contains            ${LANGAUGE}            timeout=20
     Click Element                       ${CLICK_LANGUAGE}
     

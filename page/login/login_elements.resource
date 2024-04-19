@@ -1,6 +1,4 @@
 *** Variables ***
-${LANGAUGE}            Brasil
-${CLICK_LANGUAGE}      xpath=//android.widget.Button[@content-desc="Brasil"]
 ${HEADER_ACCESS}       BRASIL
 ${ACCESS_SMART_FIT}    xpath=//android.widget.Button[@content-desc="ACESSO SMART FIT"]
 ${HEADER_LOGIN}        Login   
